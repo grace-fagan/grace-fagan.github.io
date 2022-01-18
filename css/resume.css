@@ -47,6 +47,11 @@ p.lead {
   font-weight: 400;
 }
 
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -141,6 +146,11 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
+}
+
+section.resume-section .resume-item .resume-img {
+  width: 500px;
+  margin-right: 2em;
 }
 
 @media (min-width: 768px) {
