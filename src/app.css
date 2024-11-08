@@ -1,0 +1,31 @@
+@tailwind base;
+
+@layer base {
+  main {
+    @apply text-dark;
+    @apply font-body;
+    @apply leading-normal;
+  }
+
+  h1 {
+    @apply font-bold;
+    @apply text-5xl;
+    @apply leading-tight;
+  }
+
+  h2 {
+    @apply text-xl;
+    @apply font-bold;
+  }
+
+  a, button {
+    @apply text-[#646cff];
+  }
+  
+  a:hover, button:hover {
+    @apply text-[#535bf2];
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
